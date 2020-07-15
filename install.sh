@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-cd $HOME/TshAkE
+cd $HOME/Lucifer
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x Tshake
+chmod +x Lucifer
 chmod +x ts
 ./ts
 }
 get() {
-rm -fr Tshake.lua
+rm -fr Lucifer.lua
 rm -fr sudo.lua
 wget "https://raw.githubusercontent.com/Luciferrbot/Lucifer/master/Lucifer.lua"
 lua start.lua
