@@ -7155,8 +7155,8 @@ if text == ("تحديث السورس") and DevLucifer(msg) then
 send(msg.chat_id_,msg.id_,'☑┇تم التحديث')
 os.execute('rm -rf Lucifer.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/Luciferabas/Lucifer/master/Lucifer.lua')
-os.execute('wget https://raw.githubusercontent.com/Luciferabas/Lucifer/master/start.lua')
+os.execute('wget https://raw.githubusercontent.com/Luciferrbot/Lucifer/master/Lucifer.lua')
+os.execute('wget https://raw.githubusercontent.com/Luciferrbot/Lucifer/master/start.lua')
 dofile('Lucifer.lua')  
 return false
 end
@@ -8198,8 +8198,8 @@ if text == "تحديث السورس 📥" then
 send(msg.chat_id_,msg.id_,'☑┇تم التحديث')
 os.execute('rm -rf Lucifer.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/Luciferabas/Lucifer/master/Lucifer.lua')
-os.execute('wget https://raw.githubusercontent.com/Luciferabas/Lucifer/master/start.lua')
+os.execute('wget https://raw.githubusercontent.com/Luciferrbot/Lucifer/master/Lucifer.lua')
+os.execute('wget https://raw.githubusercontent.com/Luciferrbot/Lucifer/master/start.lua')
 dofile('Lucifer.lua')  
 return false
 end
