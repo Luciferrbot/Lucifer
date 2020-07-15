@@ -4,8 +4,8 @@ install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
 chmod +x Lucifer
-chmod +x ts
-./ts
+chmod +x lr
+./lr
 }
 get() {
 rm -fr Lucifer.lua
@@ -47,7 +47,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd TshAkE
+cd Lucifer
 rm -rf luarocks*
 lua start.lua
 

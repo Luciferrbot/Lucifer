@@ -5,8 +5,8 @@ rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
 chmod +x Lucifer
 chmod +x install.sh
-chmod +x ts
-./ts
+chmod +x lr
+./lr
 }
 get() {
 rm -fr Lucifer.lua
