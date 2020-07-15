@@ -9,9 +9,6 @@ chmod +x lr
 ./lr
 }
 get() {
-rm -fr Lucifer.lua
-rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/Luciferrbot/Lucifer/master/Lucifer.lua"
 lua start.lua
 }
 installall(){
